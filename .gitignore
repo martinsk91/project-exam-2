@@ -21,7 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-src/components/home.js
 src/components/about.js
 src/components/locations.js
 
