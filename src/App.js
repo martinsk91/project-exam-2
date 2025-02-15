@@ -4,6 +4,7 @@ import './App.css';
 import Home from './components/home';
 import Locations from './components/locations';
 import About from './components/about';
+import VenueDetailPage from './components/venuedetail';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/locations" element={<Locations />} />
           <Route path="/about" element={<About />} />
+          <Route path="/venue/:id" element={<VenueDetailPage />} /> 
         </Routes>
 
     </Router>
