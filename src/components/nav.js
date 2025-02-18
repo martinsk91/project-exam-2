@@ -11,7 +11,7 @@ function Navlinks(){
         <NavLink className="p-3" to="/">Home</NavLink>
         <NavLink className="p-3" to="/locations">Locations</NavLink>
         <NavLink className="p-3" to="/about">About</NavLink>
-        <NavLink className="p-3" to="/register">Register</NavLink>
+       
 
         </>
     
