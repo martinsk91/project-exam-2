@@ -15,6 +15,7 @@ function Header() {
     return (
         <header className="bg-orange-500 sticky top-0 flex-wrap z-[20] mx-auto flex w-full items-center justify-between max-w-[1600px]">
             <Logo />
+            <Nav />
             {username ? (
                 <div className="flex items-center space-x-4">
                     <span className="text-white">{`${username}`}</span>
@@ -28,7 +29,6 @@ function Header() {
             ) : (
                 <NavLink className="p-3 text-white" to="/register">Register/Login</NavLink>
             )}
-            <Nav />
             
           
  
